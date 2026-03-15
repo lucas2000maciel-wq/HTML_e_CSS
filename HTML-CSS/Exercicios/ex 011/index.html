@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes,ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/letra-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/2letra-m.png" type="image/png">
+        <img src="imagens/2letra-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir um ádio em HTML5</p>
+    <audio src="mídia/morning-in-paris.mp3.mp3"type=audio/mpeg controls autoplay></audio><!--MP3 WAV OGG-->
+    <p> 
+        <audio src="mídia/cinematic-piano.wav.wav" controls autoplay></audio>
+        <audio src="mídia/scerzo-in-a-minor.ogg.ogg"controls autoplay></audio>
+        <audio src="mídia/guanacast-33.mp3"></audio>
+    </p>
+    <p>Porem seu navegador não suporta o audio <a href="mídia/guanacast-33.mp3" download="guanacast-33" type="audio/mpeg">guanacast-33</a> acima.Clique aqui para baixar o dowload em arquivo mp3.</p>
+</head>
+<body>
+    
+</body>
+</html>
